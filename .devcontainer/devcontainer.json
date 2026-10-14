@@ -4,7 +4,7 @@
     "hostRequirements": {
         "cpus": 4
     },
-    "postCreateCommand": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "updateContentCommand": "npm install && cd backend && npm install && cd ../frontend && npm install",
     "postAttachCommand": "npm run dev",
     "forwardPorts": [
         3000
