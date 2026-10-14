@@ -1,6 +1,9 @@
+.productList .listWrapper {
+}
+
 .productList .topBar {
   height: 130px;
-
+  border-bottom: 1px solid #ddd;
   margin-bottom: 16px;
 }
 
@@ -8,3 +11,16 @@
   font-size: 28px;
 }
 
+@media (min-width: 700px) {
+  .productList .listWrapper {
+  }
+}
+
+@media (min-width: 992px) {
+  .productList .listWrapper {
+  }
+
+  .productList .title {
+    font-size: 32px;
+  }
+}
