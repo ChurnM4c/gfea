@@ -1,0 +1,22 @@
+{
+    "name": "gfea",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+    "hostRequirements": {
+        "cpus": 4
+    },
+    "postCreateCommand": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "postAttachCommand": "npm run up",
+    "forwardPorts": [
+        3000
+    ],
+    "portsAttributes": {
+        "3000": {
+            "label": "Frontend",
+            "onAutoForward": "openPreview"
+        },
+        "4000": {
+            "label": "Backend",
+            "onAutoForward": "silent"
+        }
+    }
+}
