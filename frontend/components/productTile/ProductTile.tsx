@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./productTile.module.css";
 import Rating from "../rating/Rating";
 import { product } from "../productList/ProductList";
+import { formatPrice } from "../../utils/formatPrice";
 
 const ProductTile: React.FC<Omit<product, "id" | "Brand">> = ({
     name,
@@ -12,14 +13,6 @@ const ProductTile: React.FC<Omit<product, "id" | "Brand">> = ({
     category,
     brandName,
 }) => {
-
-    const normalizePrice = (price: number) => {
-        if (price % 1 === 0) {
-            return `${price}.–`;
-        }
-        return price.toFixed(2);
-    };
-
     return (
         <div className={styles.productTileWrapper}>
             <article className={styles.productTile}>
@@ -32,10 +25,10 @@ const ProductTile: React.FC<Omit<product, "id" | "Brand">> = ({
                 </div>
                 <p className={styles.category}>{category}</p>
                 <p className={styles.price}>
-                    {normalizePrice(price)}
+                    {formatPrice(price)}
                     {insteadOfPrice && (
                         <span className={styles.insteadOfPrice}>
-                            was {normalizePrice(insteadOfPrice)}
+                            was {formatPrice(insteadOfPrice)}
                         </span>
                     )}
                 </p>
