@@ -86,3 +86,32 @@
         content: none;
     }
 }
+
+@media (hover: hover) and (pointer: fine) {
+    .productTile {
+        transition: box-shadow 0.2s ease;
+    }
+
+    .productTile .img {
+        transition: transform 0.2s ease;
+    }
+
+    .productTile:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    .productTile:hover .img {
+        transform: scale(1.05);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .productTile,
+    .productTile .img {
+        transition: none;
+    }
+
+    .productTile:hover .img {
+        transform: none;
+    }
+}
