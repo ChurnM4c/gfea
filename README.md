@@ -6,7 +6,9 @@ A small product list built with Next.js and a GraphQL backend.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ChurnM4c/gfea)
 
-You need a GitHub account. Installing the dependencies takes a few minutes the first time. When it is done, backend and frontend start automatically and the app opens in a preview tab.
+You need a GitHub account. Backend and frontend start automatically and the app opens in a preview tab. Don't run `npm start` yourself in a Codespace, the servers are already running.
+
+When you are done, delete the Codespace on https://github.com/codespaces so it doesn't use up your free quota.
 
 ## Start locally
 
