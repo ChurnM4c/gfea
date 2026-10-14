@@ -9,7 +9,11 @@ export interface ratingProps {
 }
 
 const Rating: FC<ratingProps> = ({ rating, ratingCount }) => {
-    return <div className={styles.rating}></div>;
+    return (
+        <div className={styles.rating}>
+            <span className={styles.ratingCount}>{ratingCount}</span>
+        </div>
+    );
 };
 
 export default Rating;
