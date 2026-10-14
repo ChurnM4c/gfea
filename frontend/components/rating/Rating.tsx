@@ -1,5 +1,7 @@
 import { FC } from "react";
 import styles from "./rating.module.css";
+import RatingStarCss from "../ratingStar/RatingStarCss";
+import { calcStars } from "../../utils/calcStars";
 
 export interface ratingProps {
     rating: number;
