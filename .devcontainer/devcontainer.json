@@ -5,14 +5,14 @@
         "cpus": 4
     },
     "postCreateCommand": "npm install && cd backend && npm install && cd ../frontend && npm install",
-    "postAttachCommand": "npm run up",
+    "postAttachCommand": "npm run dev",
     "forwardPorts": [
         3000
     ],
     "portsAttributes": {
         "3000": {
             "label": "Frontend",
-            "onAutoForward": "openPreview"
+            "onAutoForward": "openBrowser"
         },
         "4000": {
             "label": "Backend",
