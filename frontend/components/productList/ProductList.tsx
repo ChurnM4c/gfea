@@ -19,7 +19,9 @@ export interface product {
 };
 
 export default function ProductList() {
-    const { loading, error, data } = useQuery(GET_PRODUCTS);
+    const { loading, error, data } = useQuery(GET_PRODUCTS, {
+        variables: { sortField: "rating", sortOrder: "desc" },
+    });
     return (
         <section className={styles.productList}>
             <div className={styles.topBar}>
