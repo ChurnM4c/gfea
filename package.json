@@ -1,7 +1,8 @@
 {
     "scripts": {
         "start": "npm install && npm run up",
-        "up": "concurrently \"cd backend && npm install && npm start\" \"cd frontend && npm install && npm run dev\""
+        "up": "concurrently \"cd backend && npm install && npm start\" \"cd frontend && npm install && npm run dev\"",
+        "dev": "concurrently \"cd backend && npm start\" \"cd frontend && npm run dev\""
     },
     "dependencies": {
         "concurrently": "^8.2.2"

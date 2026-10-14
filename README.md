@@ -10,7 +10,7 @@ Open the link from your invitation. Dependencies are installed and backend and f
 
 ### GitHub Codespaces (fallback)
 
-Open https://codespaces.new/ChurnM4c/gfea. You need a GitHub account. Backend and frontend start automatically and the app opens in a preview tab. Don't run `npm start` yourself in a Codespace, the servers are already running.
+Open https://codespaces.new/ChurnM4c/gfea. You need a GitHub account. Backend and frontend start automatically and the app opens in a new browser tab. If it doesn't, open the **Ports** tab and click the globe icon next to port 3000. Don't run `npm start` yourself in a Codespace, the servers are already running.
 
 To switch to an exercise, click the branch name in the bottom left corner, or run:
 
@@ -18,7 +18,7 @@ To switch to an exercise, click the branch name in the bottom left corner, or ru
 git checkout <branch>
 ```
 
-The servers keep running and pick up the change. Reload the preview if needed.
+The servers keep running and pick up the change. Reload the app tab if needed.
 
 When you are done, delete the Codespace on https://github.com/codespaces so it doesn't use up your free quota.
 
