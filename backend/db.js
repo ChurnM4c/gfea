@@ -11,7 +11,7 @@ module.exports = {
             description: "The latest Apple iPhone with A16 Bionic chip.",
             category: "Smartphones",
             brand_id: 1,
-            imageUrl: "/images/ip15.png",
+            imageUrl: "/images/ip15.jpg",
         },
         {
             id: 2,
@@ -33,7 +33,7 @@ module.exports = {
             description: "Light and powerful MacBook with M2 chip.",
             category: "Laptops",
             brand_id: 1,
-            imageUrl: "/images/mba.png",
+            imageUrl: "/images/mba.jpg",
         },
         {
             id: 4,
@@ -44,7 +44,7 @@ module.exports = {
             description: "Noise-cancelling headphones with superior sound.",
             category: "Headphones",
             brand_id: 4,
-            imageUrl: "/images/wh1000xm5.png",
+            imageUrl: "/images/wh1000xm5.jpg",
         },
 
         // Clothing
@@ -57,7 +57,7 @@ module.exports = {
             description: "Stylish and comfortable sneakers for everyday wear.",
             category: "Shoes",
             brand_id: 7,
-            imageUrl: "/images/am90.png",
+            imageUrl: "/images/am90.jpg",
         },
         {
             id: 6,
@@ -69,7 +69,7 @@ module.exports = {
             description: "Running shoes with excellent cushioning and comfort.",
             category: "Shoes",
             brand_id: 8,
-            imageUrl: "/images/ub.png",
+            imageUrl: "/images/ub.jpg",
         },
         {
             id: 7,
@@ -80,7 +80,7 @@ module.exports = {
             description: "Classic jeans with timeless design and perfect fit.",
             category: "Pants",
             brand_id: 9,
-            imageUrl: "/images/jeans.png",
+            imageUrl: "/images/jeans.jpg",
         },
         {
             id: 8,
@@ -91,7 +91,7 @@ module.exports = {
             description: "Comfortable and sporty hoodie for casual wear.",
             category: "Tops",
             brand_id: 10,
-            imageUrl: "/images/puma.png",
+            imageUrl: "/images/puma.jpg",
         },
 
         // Food & Drinks
@@ -104,7 +104,7 @@ module.exports = {
             description: "Refreshing drink with a classic taste.",
             category: "Drinks",
             brand_id: 16,
-            imageUrl: "/images/coke.png",
+            imageUrl: "/images/coke.jpg",
         },
         {
             id: 10,
@@ -115,7 +115,7 @@ module.exports = {
             description: "Delicious hazelnut spread loved by everyone.",
             category: "Food",
             brand_id: 18,
-            imageUrl: "/images/nutella.png",
+            imageUrl: "/images/nutella.jpg",
         },
         {
             id: 11,
@@ -126,7 +126,7 @@ module.exports = {
             description: "Crispy chips with the original flavor.",
             category: "Snacks",
             brand_id: 19,
-            imageUrl: "/images/pringles.png",
+            imageUrl: "/images/pringles.jpg",
         },
         {
             id: 12,
@@ -137,7 +137,7 @@ module.exports = {
             description: "Classic chocolate cookies with a creamy filling.",
             category: "Snacks",
             brand_id: 21,
-            imageUrl: "/images/oreos.png",
+            imageUrl: "/images/oreos.jpg",
         },
 
         // Gaming
@@ -161,7 +161,7 @@ module.exports = {
             description: "Powerful gaming console with 4K gaming capabilities.",
             category: "Consoles",
             brand_id: 26,
-            imageUrl: "/images/xbox.png",
+            imageUrl: "/images/xbox.jpg",
         },
         {
             id: 15,
@@ -172,7 +172,7 @@ module.exports = {
             description: "Portable and versatile gaming console by Nintendo.",
             category: "Consoles",
             brand_id: 27,
-            imageUrl: "/images/switch.png",
+            imageUrl: "/images/switch.jpg",
         },
         {
             id: 16,
@@ -183,7 +183,7 @@ module.exports = {
             description: "Mechanical gaming keyboard with RGB lighting.",
             category: "Peripherals",
             brand_id: 28,
-            imageUrl: "/images/keyboard.png",
+            imageUrl: "/images/keyboard.jpg",
         },
 
         // Miscellaneous
@@ -196,7 +196,7 @@ module.exports = {
             description: "Precise and customizable gaming mouse.",
             category: "Peripherals",
             brand_id: 29,
-            imageUrl: "/images/mouse.png",
+            imageUrl: "/images/mouse.jpg",
         },
         {
             id: 18,
@@ -207,7 +207,7 @@ module.exports = {
             description: "Wireless gaming headset with immersive sound.",
             category: "Headsets",
             brand_id: 30,
-            imageUrl: "/images/headset1.png",
+            imageUrl: "/images/headset1.jpg",
         },
         {
             id: 19,
@@ -218,7 +218,7 @@ module.exports = {
             description: "Delicious gummy bears with fruity flavors.",
             category: "Snacks",
             brand_id: 24,
-            imageUrl: "/images/goldbaeren.png",
+            imageUrl: "/images/goldbaeren.jpg",
         },
         {
             id: 20,
@@ -229,7 +229,7 @@ module.exports = {
             description: "Comfortable headset with surround sound.",
             category: "Headsets",
             brand_id: 34,
-            imageUrl: "/images/headset2.png",
+            imageUrl: "/images/headset2.jpg",
         },
     ],
     brands: [
